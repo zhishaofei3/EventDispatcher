@@ -37,6 +37,10 @@ export default class EventDispatcher {
     }
   }
 
+  removeAllEventListener() {
+    this._listeners = undefined
+  }
+
   dispatchEvent(event) {
     if (this._listeners === undefined) return
     let listeners = this._listeners
