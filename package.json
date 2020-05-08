@@ -1,5 +1,5 @@
 {
-  "name": "@zhi/EventDispatcher",
+  "name": "@zhishaofei3/eventdispatcher",
   "version": "1.0.0",
   "description": "A classics event dispatcher",
   "main": "dist/EventDispatcher.js",
@@ -36,5 +36,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {}
 }
