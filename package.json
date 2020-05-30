@@ -1,8 +1,8 @@
 {
   "name": "@zhishaofei3/eventdispatcher",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A classics event dispatcher",
-  "main": "src/EventDispatcher.js",
+  "main": "dist/EventDispatcher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
