@@ -1,11 +1,12 @@
 {
   "name": "@zhishaofei3/eventdispatcher",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "A classics event dispatcher",
-  "main": "dist/EventDispatcher.min.js",
+  "main": "src/EventDispatcher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "build2": "babel --out-file ./dist/EventDispatcher.min.js src/EventDispatcher.js"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
-    "@babel/preset-stage-0": "^7.8.3",
+    "@babel/preset-env": "^7.10.1",
     "babel-loader": "^8.1.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.43.0",
