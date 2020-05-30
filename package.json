@@ -1,6 +1,6 @@
 {
   "name": "@zhishaofei3/eventdispatcher",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A classics event dispatcher",
   "main": "src/EventDispatcher.js",
   "scripts": {
