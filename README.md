@@ -15,7 +15,8 @@ function onEventHandler() {
 // API
 myClass.addEventListener('eventName', onEventHandler)
 myClass.hasEventListener('eventName', onEventHandler) // true
-myClass.dispatchEvent('eventName')
+myClass.dispatchEvent({type: 'eventName'})
+myClass.dispatchEvent({type: 'eventName', moreData: {}})
 myClass.removeEventListener('eventName', onEventHandler)
 myClass.removeAllEventListener()
 ```
